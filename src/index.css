@@ -1,13 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root{
+  --ing-main-color: rgb(254, 106, 36);
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+  'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(249 250 251);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* COLORS */
+.text-ing{
+  color: var(--ing-main-color);
+}
+.border-ing{
+  border-color: var(--ing-main-color);
+}
+.bg-ing{
+  background-color: var(--ing-main-color);
+}
+
+/* ! TESTING */
+.test {
+	background-color: #e8b5b560;
+	border: 1px solid black;
+}
+.test-2 {
+	background-color: #b5e8c356;
+	border: 1px solid black;
+}
+.test-3 {
+	background-color: #b5b8e856;
+	border: 1px solid black;
 }
